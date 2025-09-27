@@ -23,6 +23,7 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    
 }
 
 a {
@@ -121,8 +122,49 @@ a {
     margin-bottom: 5px;
 }
 
+.logotop {
+    height: 20px;
+    width: auto;
+    margin: 0px;
+}
+
+.boxtoplien {
+    list-style: none; 
+    display: flex;
+    font-family: Inter, Inter-Medium;
+    letter-spacing: 0px;
+    margin: 0px;
+    line-height: 22px;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: inherit;
+    font-weight: normal;
+    gap: 0.5rem 4.5rem ;
+       
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    
+}
+
+.bordertop:hover {
+    border-top: 2px solid #0065fc;
+    padding: 17.5px;
+    color: #0065FC;
+}
 
 
+
+
+
+.epcvopn {
+    font-size: 19px;
+    
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
