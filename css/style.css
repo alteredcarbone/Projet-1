@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
 }
 
 :root {
@@ -126,35 +127,32 @@ a {
     height: 20px;
     width: auto;
     margin: 0px;
+    margin-top: 20px;
 }
 
 .boxtoplien {
-    list-style: none; 
     display: flex;
-    font-family: Inter, Inter-Medium;
-    letter-spacing: 0px;
-    margin: 0px;
-    line-height: 22px;
-    text-decoration: none;
-    cursor: pointer;
-    white-space: inherit;
-    font-weight: normal;
-    gap: 0.5rem 4.5rem ;
-       
+    margin-top: 0px;
+    gap: 0.5rem 2rem;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
-    margin-top: 10px;
+    margin-bottom: 30px;
+    
     
 }
 
 .bordertop:hover {
     border-top: 2px solid #0065fc;
-    padding: 17.5px;
     color: #0065FC;
+    padding-top: 10px;
+    
+}
+
+.bordertop {
+    padding: 12px;
 }
 .tvhpdvdr{
     margin: 0;
