@@ -164,6 +164,59 @@ header {
     margin-bottom: 50px;
 }
 
+.fa-location-dot {
+    display: flex;
+    border: 1px solid #f2f2f2;
+    width: 50px;
+    height: 49px;
+    border-radius: 15px 0px 0px 15px ; 
+    background-color: #F2F2F2;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    color: black;
+    
+       
+}
+
+.search-location {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+input {
+    display: flex;
+    font-size: 18.5px;
+    margin-bottom: 50px;
+    border: 1px solid #F2F2F2;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+}
+
+.button-search  {
+    border: 1px solid #0065FC;
+    border-left: none;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    font-family: 'Raleway','sans-serif';
+    width: 143px;
+    
+}
+
+
+
+
+
+
+
+
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
