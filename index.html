@@ -22,12 +22,12 @@
                 <img src="images/logo/Booki.png" alt="Logo Booki" class="logotop">
             </div>
 
-            <div class="boxtoplien">
+            <nav class="boxtoplien">
                 
                 <a href="#" class="bordertop"> Hébergements </a>
                 <a href="#" class="bordertop"> Activités </a>
   
-            </div>
+            </nav>
         </header>
         <main>
             <section>
@@ -44,6 +44,10 @@
                     <i class="fa-solid fa-location-dot"></i>
                     <input type="text" id="#" class="search">
                     <input type="submit" id="#" class="button-search" value="Rechercher">
+                    <a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>  
+                    </a>      
+                    
                                
                 </form>
             </section>
@@ -121,11 +125,11 @@
                                 <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                 <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                             </div>
-                        </article>
+                            </article>
                         </a>
                         <a href="#">
                             <article class="card">
-                            <img src="images/hebergements/annie-spratt.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <img src="images/hebergements/annie-spratt.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                             <div class="card-hebergement-txt">
                                 <h3 class="card-hebergement-title">Hôtel de la mer</h3>
                                 <p class="card-hebergement-subtitle">Nuit à partir de 46<span class="euro">€</span></p>
@@ -258,7 +262,7 @@
                     </a>
                     <a href="#">
                         <article class="card-activités">
-                            <img src="./images/activites/paul-hermann.jpg" alt="Image du Vieux-Port de Marseille">
+                            <img src="./images/activites/paul-hermann.jpg" alt="Image du Fort de Pomègues">
                             <div>
                                 <h3>Fort de Pomègues</h3>
                             </div>
@@ -266,7 +270,7 @@
                     </a>
                     <a href="#">
                         <article class="card-activités">
-                            <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image du Vieux-Port de Marseille">
+                            <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image du Parc national des Calanques">
                             <div>
                                 <h3>Parc national des Calanques</h3>
                             </div>
@@ -274,7 +278,7 @@
                     </a>
                     <a href="#">
                         <article class="card-activités">
-                            <img src="./images/activites/florian-wehde.jpg" alt="Image du Vieux-Port de Marseille">
+                            <img src="./images/activites/florian-wehde.jpg" alt="Image de la cathédrale Notre-Dame-de-la-Garde">
                             <div>
                                 <h3>Notre-Dame-de-la-Garde</h3>
                             </div>
@@ -283,36 +287,34 @@
                 </div>
             </section>
         </main>
-        <footer>
-           <div>
-                <h3>À Propos</h3>
-           <a href="#">
-                <ul class="footer-propos">
-                    <li>Fonctionnement du site</li>
-                    <li>Conditions générales</li>
-                    <li>Données et confidentialité</li>
-                </ul>
-            </a>
+        <footer class="footer">
+            <div class="footer_div">
+                <div class="footer_col">
+                    <h3>À Propos</h3>
+                        <ul>
+                            <li><a href="#">Fonctionnement du site</a></li>
+                            <li><a href="#">Conditions générales</a></li>
+                            <li><a href="#">Données et confidentialité</a></li>
+                        </ul>
+                </div>
+                <div class="footer_col">
+                    <h3>Nos hébergements</h3>
+                        <ul>
+                            <li><a href="#">Charte qualité</a></li>
+                            <li><a href="#">Proposer votre hôtel</a></li>
+                        </ul>
+                
+                </div>
+                <div class="footer_col">
+                    <h3>Assistance</h3>
+                        <ul>
+                            <li><a href="#">Centre d'aide</a></li>
+                            <li><a href="#">Nous contacter</a></li>
+                     </ul>
+            
+                </div>
             </div>
-            <div >
-                <h3>Nos hébergements</h3>
-           <a href="#" >
-                <ul class="footer-hebergements">
-                    <li>Charte qualité</li>
-                    <li>Proposer votre hôtel</li>
-                </ul>
-            </a>
-            </div>
-            <div >
-                <h3>Assistance</h3>
-           <a href="#">
-                <ul class="footer-assistance">
-                    <li>Centre d'aide</li>
-                    <li>Nous contacter</li>
-                </ul>
-            </a>
-            </div>
-        </footer>
+        </footer>    
     </div>
 </body>
 
