@@ -43,6 +43,7 @@ a {
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    
 }
 
 .card img {
@@ -127,8 +128,14 @@ input {
     width: 210px;
     height: 47px;
     margin-bottom: 25px;
-    
+        
 }
+
+.search::placeholder {
+    color: black;
+    opacity: 1;
+}
+ 
 
 input:focus {
     outline: none;
@@ -227,9 +234,9 @@ input:focus {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     gap: 10px;
-    
+
 }
 .hebergements .card{
     display: flex;
@@ -240,7 +247,7 @@ input:focus {
     flex-direction: column;
     margin-top: 30px;
     justify-content: space-around;
-    
+    flex-wrap: nowrap;
     
 }
 
@@ -254,7 +261,7 @@ input:focus {
 }
 
 .hebergements .card-hebergement-txt {
-    display: block;
+    display: flex;
     flex-direction: column;
     margin-left: 10px;
 
@@ -264,8 +271,8 @@ input:focus {
     margin-left: 10px;
 }
 
-.hebergements .card-title {
-    display: flex;
+.hebergements h3 {
+    margin: 0;
 }
 
 /****** Populaires ***********/
@@ -328,15 +335,19 @@ input:focus {
     border-radius: 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     height: 500px;
+    width: 100%;
+    flex-wrap: nowrap;
+    
     
 }
 
 .Activités img {
     object-fit: cover;
     height: 87%;
-    width: 310px;
+    width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    aspect-ratio: 400 / 534;
 }
 
 .Activités h3 {
@@ -347,6 +358,7 @@ input:focus {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    
 }
 
 /****** Footer ***********/
@@ -396,10 +408,10 @@ input:focus {
         flex: 1 1 1;
         max-width: none;
     }
+
+  
+    
 }
-
-
-
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -433,15 +445,51 @@ input:focus {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-
     .Activités .card-activités-row {
+            display: flex;
+            justify-content: flex-start;
+            align-items: stretch;
+            gap: 24px;
+            flex-wrap: nowrap;
+            
+        
+        }
+
+    .Activités .card-activités {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        flex: 0 0 calc((100% - 3 * 24px) / 4);
+        background-color: white;
+        border-radius: 20px;
+        filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+        height: 100%;
+        overflow: hidden;
+    
+    
     }
+
+    .Activités img {
+        display: block;
+        object-fit: cover;
+        height: auto;
+        aspect-ratio: 4 / 3;
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        
+    }
+
+    .Activités h3 {
+        margin: 15px;
+        flex-wrap: nowrap;
+    } 
+
+    
 
     .footer_div {
         gap: 32px;
     }
+
 
     
     
