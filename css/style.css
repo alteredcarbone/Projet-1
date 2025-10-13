@@ -337,7 +337,7 @@ input:focus {
     border-radius: 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     width: 100%;
-    height: 95%;
+    height: auto;
 }
 
 .Activités img {
@@ -493,7 +493,7 @@ input:focus {
         display: block;
         object-fit: cover;
         height: auto;
-        aspect-ratio: 4 / 3;
+        aspect-ratio: 4 / 5;
         width: 100%;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
@@ -524,6 +524,61 @@ input:focus {
 
 /* Small devices (phones, less than 768px) */
 @media (min-width: 320px) and (max-width: 768px) {
+    
+    .main-container  {
+        padding: 0;
+        
+    }
+
+    /*Header*/
+    header {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logotop {
+            margin-bottom: 15px;
+            height: 25px;
+        }
+
+        .boxtoplien {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        border-bottom: 1px solid var(--main-bg-color);
+    }
+
+    .boxtoplien a {
+            position: relative;
+            display: inline-block;
+            padding: 12px 0 14px;
+            color: inherit;
+            text-decoration: none;
+    }
+
+    .boxtoplien a::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;                 
+        transform: translateX(-50%) scaleX(0); 
+        width: 50vw;               
+        height: 2px;
+        background-color: var(--main-color);
+            
+    }
+
+    .boxtoplien a:hover::after {        
+        transform: translateX(-50%) scaleX(1); 
+    }
+
+    .boxtoplien a:hover {
+        border-top: transparent;
+        color: var(--main-color);
+    }
+
+    /* bouton de recherche */
     .fa-magnifying-glass {
         display: flex;
         border: 1px solid #0065FC;
@@ -533,21 +588,117 @@ input:focus {
         height: 49px;
         width: 50px;
         justify-content: center;
-        border-radius: 0px 15px 15px 0px;
+        border-radius: 15px;
+        filter: drop-shadow(0px 0px 15px rgba(0, 0, 15, 0));
     }
     .button-search {
         display: none;
 
     }
+    
+    .search-location { 
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        width: 100%;
+        max-width: clamp(280px, 88vw, 560px);  
+        gap: 0;
+    }
 
+    .search-location .search {
+        flex: 1 1 auto;
+        width: auto;
+        padding: 0 12px;
+        text-align: left;
+    }
+
+    .search-location .fa-location-dot {
+        flex: 0 0 50px;
+    }
+  
+    .search-location .button-search {
+        display: none;
+    }
+
+    
+    /* texte sous le header*/
+    .epcvopn {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .tvhpdvdr {
+        gap: 8px;
+        padding: 0px 20px 0px 20px 
+    }
+
+    /*Filtres*/
+
+
+
+
+    /*Info bar*/
+    .infobar  .fa-info{
+        margin-left: 20px;
+        aspect-ratio: 1 / 1;
+    }
+    
+    /*Hebregement and popualaires*/
+    .hebergements-and-populaires {
+        display: flex;
+        flex-direction: column-reverse;
+        border-radius: none;
+        width: 100%;
+        
+        
+    }
+
+    /*Hebergement*/
+    
+    .hebergements-card  {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .hebergements {
+        width: 100%;
+        background-color: transparent !important;
+        border-radius: 0 !important;
+    }
+
+    /*Populaires*/
+    .populaires  {
+        border-radius: 0 !important;
+        width: 100%;
+    }
+
+    /*Activité*/
+    .Activités .card-activités-row {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 10%;
+    }
+    
+    /*Footer*/
     .footer_div {
         gap: 20px;
     }
 
     .footer_col {
-        flex: 1 1 100%;
-        min-width: none;
+        display: flex;
+        flex-direction: column;
+
     }
 
     
-}
+    
+    
+
+    
+    
+    
+    
+}    
