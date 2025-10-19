@@ -352,11 +352,9 @@ input:focus {
     display: flex;
     padding: 20px 19px 20px 19px;
     height: 19px;
-    size: 16px;
     flex-wrap: nowrap;
     width: auto;
     line-height: 100%;
-    letter-spacing: 0%;
     align-items: center;
     font-weight: 700;
     
@@ -412,15 +410,6 @@ input:focus {
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
-@media (min-width: 1025px) and (max-width: 1440px) {
-    .footer_col {
-        flex: 1 1 1;
-        max-width: none;
-    }
-
-  
-    
-}
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -514,10 +503,6 @@ input:focus {
     .footer_div {
         gap: 32px;
     }
-
-
-    
-    
 }
 
 
@@ -553,8 +538,7 @@ input:focus {
             position: relative;
             display: inline-block;
             padding: 12px 0 14px;
-            color: inherit;
-            text-decoration: none;
+            
     }
 
     .boxtoplien a::after {
@@ -575,7 +559,7 @@ input:focus {
 
     .boxtoplien a:hover {
         border-top: transparent;
-        color: var(--main-color);
+        
     }
 
     /* bouton de recherche */
@@ -610,7 +594,6 @@ input:focus {
     .search-location .search {
         flex: 1 1 auto;
         width: auto;
-        min-width: 0;
         padding: 0 12px;
         text-align: left;
     }
@@ -618,11 +601,6 @@ input:focus {
     .search-location .fa-location-dot {
         flex: 0 0 50px;
     }
-  
-    .search-location .button-search {
-        display: none;
-    }
-
     
     /* texte sous le header*/
     .epcvopn {
@@ -641,7 +619,6 @@ input:focus {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
-        justify-content: space-between;
         column-gap: 10px;
         row-gap: 20px;
         justify-content: center;
@@ -674,10 +651,7 @@ input:focus {
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column-reverse;
-        border-radius: none;
         width: 100%;
-        
-        
     }
 
     /*Hebergement*/
@@ -701,11 +675,6 @@ input:focus {
         padding: 15px!important;
     }
     
-    
-
-   
-
-    
     /*Populaires*/
     .populaires  {
         border-radius: 0 !important;
@@ -720,8 +689,6 @@ input:focus {
         ;
 
     }
-
-    
 
     .Activités .card-activités {
         display: flex;
@@ -756,8 +723,6 @@ input:focus {
         padding: 0 0 0 30px;
                 
     }
-
-    
     
     /*Footer*/
     .footer_div {
