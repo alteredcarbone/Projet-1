@@ -328,11 +328,11 @@ input:focus {
     margin-top: 60px;
 }
 
-.Activités  {
+.activities  {
     width: 100%;
     margin-bottom: 50px; 
 }
-.Activités .card-activités {
+.activities .card-activities {
     margin-top: 20px;
     background-color: white;
     border-radius: 20px;
@@ -341,7 +341,7 @@ input:focus {
     height: auto;
 }
 
-.Activités img {
+.activities img {
     object-fit: cover;
     width: 100%;
     border-top-left-radius: 20px;
@@ -349,7 +349,7 @@ input:focus {
     aspect-ratio: 400 / 534;
 }
 
-.Activités h3 {
+.activities h3 {
     display: flex;
     padding: 20px 19px 20px 19px;
     height: 19px;
@@ -361,7 +361,7 @@ input:focus {
     
 } 
 
-.Activités .card-activités-row {
+.activities .card-activities-row {
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -457,7 +457,7 @@ input:focus {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-    .Activités .card-activités-row {
+    .activities .card-activities-row {
             display: flex;
             justify-content: flex-start;
             align-items: stretch;
@@ -467,7 +467,7 @@ input:focus {
         
         }
 
-    .Activités .card-activités {
+    .activities .card-activities {
         display: flex;
         flex-direction: column;
         background-color: white;
@@ -479,7 +479,7 @@ input:focus {
     
     }
 
-    .Activités img {
+    .activities img {
         display: block;
         object-fit: cover;
         height: auto;
@@ -490,7 +490,7 @@ input:focus {
         
     }
 
-    .Activités h3 {
+    .activities h3 {
         display: flex;
         height: 19px;
         letter-spacing: 0;
@@ -686,7 +686,7 @@ input:focus {
     }
 
     /*Activité*/
-    .Activités .card-activités-row {
+    .activities .card-activities-row {
         display: flex;
         flex-direction: column;
         padding: 30px
@@ -694,7 +694,7 @@ input:focus {
 
     }
 
-    .Activités .card-activités {
+    .activities .card-activities {
         display: flex;
         flex-direction: column;
         width: 100%; 
@@ -703,27 +703,27 @@ input:focus {
 
     }
 
-    .Activités .card-activités img {
+    .activities .card-activities img {
         width: 100%;
         height: 141px;
         object-fit: cover;
         flex-shrink: 0;
     }
 
-    .Activités .card-activités h3 {
+    .activities .card-activities h3 {
         margin: 0;
         font-weight: 600;
         font-size: 16px;
     }
 
-    .Activités .card-activités div {
+    .activities .card-activities div {
         gap: 10px;
         display: flex;
         align-items: center;
         
     }
 
-    .Activités .h2-title {
+    .activities .h2-title {
         padding: 0 0 0 30px;
                 
     }
