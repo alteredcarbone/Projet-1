@@ -238,7 +238,7 @@ input:focus {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    gap: 10px;
+    
 
 }
 .hebergements .card{
@@ -248,7 +248,7 @@ input:focus {
     padding: 5px;
     background-color: white ;
     flex-direction: column;
-    margin-top: 30px;
+    
     justify-content: space-around;
     flex-wrap: nowrap;
     
@@ -266,7 +266,7 @@ input:focus {
 .hebergements .card-hebergement-txt {
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    
 
 }
 
@@ -749,15 +749,7 @@ input:focus {
         margin-top: 10px;
     }
 
-   
-    
-
-    
-    
-    
-
-    
-    
+  
     
     
 }    
