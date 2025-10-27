@@ -237,20 +237,20 @@ input:focus {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 20px;
     
-
+    
 }
 .hebergements .card{
     display: flex;
-    width: 250px;
+    width: 240px;
     height: 200px;
     padding: 5px;
     background-color: white ;
     flex-direction: column;
-    
     justify-content: space-around;
     flex-wrap: nowrap;
+    margin-bottom: 30px;
+    
     
 }
 
@@ -260,13 +260,15 @@ input:focus {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     object-fit: cover;
+    margin-bottom: 8px;
     
 }
 
 .hebergements .card-hebergement-txt {
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
+    padding: 0px 8px 8px 8px;
 
 }
 
@@ -276,6 +278,10 @@ input:focus {
 
 .hebergements h3 {
     margin: 0;
+}
+
+.hebergements h2 {
+    margin: 0 0 30px 0;
 }
 
 /****** Populaires ***********/
@@ -325,7 +331,8 @@ input:focus {
 
 /****** Activités ***********/
 .h2-title {
-    margin-top: 60px;
+    margin: 60px 0 30px 20px ;
+    
 }
 
 .activities  {
@@ -333,7 +340,7 @@ input:focus {
     margin-bottom: 50px; 
 }
 .activities .card-activities {
-    margin-top: 20px;
+    
     background-color: white;
     border-radius: 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
@@ -358,16 +365,18 @@ input:focus {
     line-height: 100%;
     align-items: center;
     font-weight: 700;
-    
 } 
 
 .activities .card-activities-row {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 30px;
     flex-wrap: nowrap;
-    
+    margin-left: 30px;
+    margin-right: 30px;  
 }
+
+
 
 /****** Footer ***********/
 
@@ -689,8 +698,9 @@ input:focus {
     .activities .card-activities-row {
         display: flex;
         flex-direction: column;
-        padding: 30px
-        ;
+        padding: 30px;
+        margin: 0;
+        gap: 15px;
 
     }
 
@@ -698,7 +708,7 @@ input:focus {
         display: flex;
         flex-direction: column;
         width: 100%; 
-        margin: 0 auto;   
+        margin: 0 auto ;   
         box-sizing: border-box;
 
     }
@@ -724,8 +734,8 @@ input:focus {
     }
 
     .activities .h2-title {
-        padding: 0 0 0 30px;
-                
+        padding: 0;
+        margin: 60px 0 0 25px;
     }
     
     /*Footer*/
