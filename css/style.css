@@ -677,7 +677,7 @@ input:focus {
 
     .hebergements .card {
         width: 100% !important;
-        margin-top: 20px;
+        margin: 0;
         
     }
 
